@@ -1,0 +1,13 @@
+﻿services:
+  scheduleclient:
+    image: scheduleclient
+    build:
+      context: .
+      dockerfile: ScheduleClient/Dockerfile
+
+  scheduleserver:
+    image: scheduleserver
+    build:
+      context: .
+      dockerfile: ScheduleServer/Dockerfile
+
