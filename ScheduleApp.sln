@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScheduleServer", "ScheduleServer\ScheduleServer.csproj", "{7FF2BAA1-6922-419E-BCFB-C281E5014DA9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScheduleCommon", "ScheduleCommon\ScheduleCommon.csproj", "{E288ADE0-803C-4CEE-8209-23554E63E60E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,5 +25,9 @@ Global
 		{7FF2BAA1-6922-419E-BCFB-C281E5014DA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FF2BAA1-6922-419E-BCFB-C281E5014DA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FF2BAA1-6922-419E-BCFB-C281E5014DA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E288ADE0-803C-4CEE-8209-23554E63E60E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E288ADE0-803C-4CEE-8209-23554E63E60E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E288ADE0-803C-4CEE-8209-23554E63E60E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E288ADE0-803C-4CEE-8209-23554E63E60E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
