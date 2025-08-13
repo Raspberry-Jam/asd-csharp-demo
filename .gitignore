@@ -5,5 +5,5 @@ riderModule.iml
 /_ReSharper.Caches/
 .idea/
 
-/ScheduleServer/app.db
+/ScheduleApp.Api/app.db
 /ScheduleApp.sln.DotSettings.user

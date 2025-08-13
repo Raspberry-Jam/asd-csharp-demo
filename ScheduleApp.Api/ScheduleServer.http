@@ -1,0 +1,18 @@
+###
+@host = http://localhost:5079
+
+## GET request for events
+GET {{host}}/event/
+Accept: application/json
+###
+
+## POST for adding new event
+POST {{host}}/event/
+Content-Type: application/json
+
+{
+  "name": "My second event",
+  "dateStart": "2025-08-08T19:00:21.880305",
+  "dateEnd": "2025-08-15T19:00:21.888724",
+  "hourMask": 85
+}
