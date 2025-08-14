@@ -7,7 +7,7 @@ Accept: application/json
 ###
 
 ## POST for adding new event
-POST {{host}}/event/
+POST {{host}}/event/create/
 Content-Type: application/json
 
 {
